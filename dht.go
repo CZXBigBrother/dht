@@ -70,7 +70,6 @@ func NewStandardConfig() *Config {
 		Network:     "udp4",
 		Address:     ":6881",
 		PrimeNodes: []string{
-			"tracker.coppersurfer.tk:6969/announce",
 			"router.bittorrent.com:6881",
 			"router.utorrent.com:6881",
 			"dht.transmissionbt.com:6881",
